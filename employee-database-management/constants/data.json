@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "name":"Rashi Jaiswal",
+        "age":25,
+        "city":"Bangalore"
+    },
+    {
+        "id":2,
+        "name":"Mayuri Gupta",
+        "age":67,
+        "city":"Ranchi"
+    },
+    {
+        "id":3,
+        "name":"Prachi Desai",
+        "age":27,
+        "city":"Bihar"
+    },
+    {
+        "id":4,
+        "name":"Pragya Verma",
+        "age":34,
+        "city":"Hyderabad"
+    },
+    {
+        "id":5,
+        "name":"Kusum Kumari",
+        "age":20,
+        "city":"Punjab"
+    }
+
+]

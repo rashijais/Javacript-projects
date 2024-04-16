@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Database Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <header class="header">
+        <h3>Employee Database Management</h3>
+        <button class="createEmployee button">Add Employee</button>
+    </header>
+    
+    <div class="addEmployee modal">
+        <form class="addEmployee_create form">
+            <input type="text" name="name" placeholder="Name" required/>
+            <input type="text" name="city" placeholder="City" />
+            <input type="number" name="age" placeholder="Age" required/>
+            <input type="submit" class="button submit" value="Submit">
+        </form>
+    </div>
+    
+    <div class="container">
+        <div class="employee-list">
+            <!-- Employee names will be listed here -->
+        </div>
+        <div class="single-employee">
+            <!-- Employee details will be displayed here -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+   {
+        "question":"What is the color of sky?",
+        "answers":[
+            {"text":"Blue","correct":"true"},
+            {"text":"Pink","correct":"false"},
+            {"text":"Yellow","correct":"false"},
+            {"text":"Red","correct":"false"}
+        ]
+   },
+   {
+    "question":"What is the capital of India?",
+    "answers":[
+        {"text":"Rajsthan","correct":"false"},
+        {"text":"Chennai","correct":"false"},
+        {"text":"New Delhi","correct":"true"},
+        {"text":"Uttar Pradesh","correct":"false"}
+    ]
+    },
+    {
+        "question":"What is the color of sky?",
+        "answers":[
+            {"text":"Blue","correct":"true"},
+            {"text":"Pink","correct":"false"},
+            {"text":"Yellow","correct":"false"},
+            {"text":"Red","correct":"false"}
+        ]
+   },
+   {
+    "question":"What is the color of sky?",
+    "answers":[
+        {"text":"Blue","correct":"true"},
+        {"text":"Pink","correct":"false"},
+        {"text":"Yellow","correct":"false"},
+        {"text":"Red","correct":"false"}
+    ]
+}
+]

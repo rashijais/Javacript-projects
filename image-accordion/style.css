@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+}
+
+.item {
+    flex: 1; /* Ensure all items are visible */
+    transition: flex 0.8s ease;
+    cursor: pointer;
+    overflow: hidden; /* Hide parts of the image that overflow */
+}
