@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+.search {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search button {
+    padding: 12px 20px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+}
+
+.search button:hover {
+    background-color: #005f86;
+}
+
+.city-temp {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.city-name {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.temperature {
+    font-size: 28px;
+    color: #E67300;
+}
+
+.city-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.city-info > div {
+    background: #e7e7eb;
+    padding: 15px;
+    flex-basis: 48%;
+    text-align: center;
+}
+
+.city-info h3 {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.city-info p {
+    font-size: 18px;
+    color: #666;
+}

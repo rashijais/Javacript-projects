@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search">
+            <button id="search-btn">🔍</button>
+        </div>
+        <div class="city-temp">
+            <img id="weather-image" src="images/default.png" alt="Weather Icon" style="max-width: 100px;">
+            <h3 id="city-name"></h3>
+            <p id="city-temp"></p>
+
+        </div>
+        <div class="city-info">
+            <div class="humidity">
+                <h3>Humidity</h3>
+                <p id="humidity_percent"></p>
+            </div>
+            <div class="wind-speed">
+                <h3>Wind Speed</h3>
+                <p id="windspeed"></p>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
