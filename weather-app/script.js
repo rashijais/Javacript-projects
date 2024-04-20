@@ -1,4 +1,4 @@
-const API_KEY = "0955c3662495cd995eacf6bd433a0864";
+
 const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 async function checkWeather(city){
